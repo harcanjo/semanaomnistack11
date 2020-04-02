@@ -98,4 +98,107 @@
         * Nesse caso, nossa iniciação no desenvolvimento fica mais penosa, já que essas SDK's não são extremamente simples de instalar e livres de erros.
         * Com o Expo, nós instalamos um aplicativo no celular chamado Expo, e dentro dele, tudo o que precisamos para desenvolver no React Native já está instalado, como as API's de mapas, geolocalização, câmera, sensores, calendário, etc...
         * Com isso, não precisamos nos preocupar em gerar o aplicativo para Android e iOS já que o app do Expo instalado tem tudo o que precisamos e assim usamos apenas React.
-    
+
+2 - Dia - Criando a base da aplicação.
+* Criar a base da aplicação com Node.js.
+    * Node.js & Express
+        * Rotas e recursos
+        * Métodos HTTP
+            * GET: Buscar / listar uma informação no back-end
+            * POST: Criar uma informação no back-end
+            * PUT: Alterar uma informação no back-end
+            * DELETE: Deletar uma informação no back-end
+        * Tipos de parâmetros
+            * Query Params: (request.query) Parâmetros nomeados enviados na rota após "?", servem para filtros, paginação e podem ser adicionados com "&"
+            * Route Params: (request.params) Parâmetros utilizados para identificar recursos, após a "/", acessador na nota como "/:id", servem para identificar um único recurso
+            * Request Body: (request.body) Parâmetros do corpo da requisição, utiliado para criar ou alterar recursos, e-mail, nome...
+
+    * Configuração Nodemon
+    * Utilizando o Insomnia
+    * Diferenças entre bancos de dados
+        * SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+        * NoSQL: MongoDB, CouchDB, etc.
+        * Driver do banco de dados: SELECT * FROM users
+        * Query Builder: table('users').select('*').where()
+        
+    * Configurando bancos de dados
+    * Pensando nas entidades e funcionalidades
+        * Entidades:
+            * ONG
+            * Casos (incident)
+        * Funcionalidades:
+            * Login de ONG
+            * Cadastro de ONG
+            * Logout de ONG
+            * Cadastro de novos cados
+            * Deletar casos
+            * Listar casos específicos de uma ONG
+            * Listar todos os casos
+            * Entrar em contato com a ONG
+        * Criação de tabelas através de migrations com o Knex:
+            * migrations são como um controle de versão do banco de dados.
+            * elas facilitam o trabalho onde mais de um developer estão trabalhando.
+    * Construção do Back-end
+    * Adicionando módulo CORS
+    * Enviando back-end ao GitHub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
