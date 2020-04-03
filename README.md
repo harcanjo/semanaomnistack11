@@ -1,6 +1,7 @@
 # Semana OmniStack 11.0
 
 ## Aplicação desenvolvida: Be the Hero
+![Be The Hero](screenshots/be-the-hero.PNG "Be The Hero")
 
 #### Tecnologias abordadas:
 * Stack:
@@ -142,7 +143,36 @@
     * Adicionando módulo CORS
     * Enviando back-end ao GitHub
 
+3 - Dia - Construindo a interface web.
+* Criar a interface web com React.js
+* Limpando a estrutura da aplicação
+    * Deletamos:
+        * README.md
+        * App.css
+        * App.test.js
+        * index.css
+        * logo.svg
+        * serviceWorker.js
+        * setupTests.js
+            *** Remover as importações desses arquivos.
+        * robots.txt
+        * manifest.json
+        * as logos.png
 
+* Conceitos do React
+    * Componente - uma função que retorna HTML.
+        * Nomear sempre com letra maiúscula.
+    * JSX = Javascript e XML integrado - HTML escrito no Javascript.
+    * Propriedades - é quase um atributo.
+    * Estado - Uma informação mantida pelo componente.
+    * Imutabilidade - não podemos manipular a variavel do estado de uma forma direta, devemos sobrepor.
+* Página de login
+* Configurando rotas
+* Cadastro de ONGs
+* Listagem de casos
+* Cadastro de um novo caso
+* Conectando aplicação à API
+* Enviar projeto ao Github
 
 
 
