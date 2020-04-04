@@ -199,6 +199,42 @@
     * Conexão com a API.
     * Enviando projeto ao Github.
 
+5 - Dia - Funcionalidades avançadas.
+* Adicionando validação:
+    * No back-end é muito importante e nada pode dar errado!
+    * celebrate + joi + express
+
+* Adicionando testes:
+    * Por que fazer testes?
+        * Para ter garantia que irá funcionar.
+    * TDD - Test Driven Development.
+        * Duas formas:
+            * Fazer o código antes e depois testa.
+            * A outra forma é criar o teste antes da funcionalidade, isso é o TDD, um guia para o desenvolvimento.            
+    * Configurando Jest.
+        * Framework de testes.
+    * Tipos de testes.
+        * Testes unitários - testa um pedaço isolado da aplicação.
+        * Testes de integração - um fluxo de uma rota inteira da aplicação.
+    * Configurando banco de testes.
+    * Instalando supertest.
+    * Testando rota de autenticação.
+* Deploy:
+    * Alternativas.
+        * Depende do estágio da aplicação:
+            * Heroku - dá pra iniciar no plano gratuito, pode ser caro para escalar.
+            * DigitalOcean - dá para prever a escalabilidade x $$$.
+            * Talves após esses estágios seja preciso ver outras arquiteturas...
+            * Netlify - especifico para front-end. Deploy a partir da conta no GitHub.
+    * Qual escolher?
+        * São muitas alternativas..
+* Estudos daqui pra frente:
+    * Padrões de código: ESLint, Prettier.
+    * Autenticação JWT.
+    * Styled Components.
+* Dicas para aproveitar melhor:
+    * Github - portifólio, networking.
+    * Linkedin - posts, vídeos, publicações com as palavras chave, conexões.
 
 
 
