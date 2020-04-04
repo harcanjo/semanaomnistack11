@@ -57,9 +57,9 @@
         * API RESTfull - métodos, tipo de parâmetros.
             * A comunicação é transmitida em JSON para o Front-end web, Front-end mobile e serviços externos.
 
-* Criar projeto com Node.js.
+* Criar projeto com Node.js
     - [x] Hello, world.
-    ![Hello World Node.js](screenshots/hello-node.PNG "Hello World Node.js")
+![Hello World Node.js](screenshots/hello-node.PNG "Hello World Node.js")
     * NPM:
         * express
 
@@ -76,9 +76,9 @@
         * Na abordagem de SPA, as requisições trazem apenas dados como respostas e com esses dados, o front-end pode preencher as informações em tela.
         * A página nunca recarrega, otimizando a performance e dando vida ao conceito de SPA. Retornando apenas JSON podemos ter quantos front-ends quisermos.
 
-* Criar projeto com React.js.
+* Criar projeto com React.js
     - [x] Hello, world.
-    ![Hello World React.js](screenshots/hello-react.PNG "Hello World React.js")
+![Hello World React.js](screenshots/hello-react.PNG "Hello World React.js")
     * NPX:
         create-react-app
 
@@ -101,51 +101,51 @@
         * Com isso, não precisamos nos preocupar em gerar o aplicativo para Android e iOS já que o app do Expo instalado tem tudo o que precisamos e assim usamos apenas React.
 
 2 - Dia - Criando a base da aplicação.
-* Criar a base da aplicação com Node.js.
-    * Node.js & Express
-        * Rotas e recursos
-        * Métodos HTTP
-            * GET: Buscar / listar uma informação no back-end
-            * POST: Criar uma informação no back-end
-            * PUT: Alterar uma informação no back-end
-            * DELETE: Deletar uma informação no back-end
-        * Tipos de parâmetros
-            * Query Params: (request.query) Parâmetros nomeados enviados na rota após "?", servem para filtros, paginação e podem ser adicionados com "&"
-            * Route Params: (request.params) Parâmetros utilizados para identificar recursos, após a "/", acessador na nota como "/:id", servem para identificar um único recurso
+* Criar a base da aplicação com Node.js
+    * Node.js & Express:
+        * Rotas e recursos.
+        * Métodos HTTP:
+            * GET: Buscar / listar uma informação no back-end.
+            * POST: Criar uma informação no back-end.
+            * PUT: Alterar uma informação no back-end.
+            * DELETE: Deletar uma informação no back-end.
+        * Tipos de parâmetros:
+            * Query Params: (request.query) Parâmetros nomeados enviados na rota após "?", servem para filtros, paginação e podem ser adicionados com "&".
+            * Route Params: (request.params) Parâmetros utilizados para identificar recursos, após a "/", acessador na nota como "/:id", servem para identificar um único recurso.
             * Request Body: (request.body) Parâmetros do corpo da requisição, utiliado para criar ou alterar recursos, e-mail, nome...
 
-    * Configuração Nodemon
-    * Utilizando o Insomnia
-    * Diferenças entre bancos de dados
-        * SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+    * Configuração Nodemon.
+    * Utilizando o Insomnia.
+    * Diferenças entre bancos de dados.
+        * SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server.
         * NoSQL: MongoDB, CouchDB, etc.
         * Driver do banco de dados: SELECT * FROM users
         * Query Builder: table('users').select('*').where()
         
-    * Configurando bancos de dados
-    * Pensando nas entidades e funcionalidades
+    * Configurando bancos de dados.
+    * Pensando nas entidades e funcionalidades.
         * Entidades:
-            * ONG
-            * Casos (incident)
+            * ONG.
+            * Casos (incident).
         * Funcionalidades:
-            * Login de ONG
-            * Cadastro de ONG
-            * Logout de ONG
-            * Cadastro de novos cados
-            * Deletar casos
-            * Listar casos específicos de uma ONG
-            * Listar todos os casos
-            * Entrar em contato com a ONG
+            * Login de ONG.
+            * Cadastro de ONG.
+            * Logout de ONG.
+            * Cadastro de novos cados.
+            * Deletar casos.
+            * Listar casos específicos de uma ONG.
+            * Listar todos os casos.
+            * Entrar em contato com a ONG.
         * Criação de tabelas através de migrations com o Knex:
             * migrations são como um controle de versão do banco de dados.
             * elas facilitam o trabalho onde mais de um developer estão trabalhando.
-    * Construção do Back-end
-    * Adicionando módulo CORS
-    * Enviando back-end ao GitHub
+    * Construção do Back-end.
+    * Adicionando módulo CORS.
+    * Enviando back-end ao GitHub.
 
 3 - Dia - Construindo a interface web.
-* Criar a interface web com React.js
-* Limpando a estrutura da aplicação
+* Criar a interface web com React.js.
+* Limpando a estrutura da aplicação.
     * Deletamos:
         * README.md
         * App.css
@@ -154,7 +154,7 @@
         * logo.svg
         * serviceWorker.js
         * setupTests.js
-            *** Remover as importações desses arquivos.
+        - Remover as importações desses arquivos.
         * robots.txt
         * manifest.json
         * as logos.png
@@ -166,18 +166,38 @@
     * Propriedades - é quase um atributo.
     * Estado - Uma informação mantida pelo componente.
     * Imutabilidade - não podemos manipular a variavel do estado de uma forma direta, devemos sobrepor.
-* Página de login
-* Configurando rotas
-* Cadastro de ONGs
-* Listagem de casos
-* Cadastro de um novo caso
-* Conectando aplicação à API
-* Enviar projeto ao Github
+* Página de login.
+* Configurando rotas.
+* Cadastro de ONGs.
+* Listagem de casos.
+* Cadastro de um novo caso.
+* Conectando aplicação à API.
+* Enviar projeto ao Github.
 
-
-
-
-
+4 - Dia - Desenvolvendo o App Mobile .
+* Desenvolvimento do App com React Native e Expo.
+* Instalando o Expo.
+* Criando projeto React Native.
+* Executando projeto.
+    * No celular.
+    * Emuladores.
+    * Expo Snack.
+* Diferenças para o ReactJS:
+    * Elementos HTML.
+    * Semântica.
+    * Estilização.
+        * Flexbox.
+        * Propriedades.
+        * Herança de estilos.
+        * Estilização própria.
+    * Estrutura de pastas.
+    * Ícone e Splash Screen.
+    * Configurando navegação.
+    * Página de casos.
+    * Detalhe do caso.
+    * Abrindo Whatsapp & E-mail.
+    * Conexão com a API.
+    * Enviando projeto ao Github.
 
 
 
